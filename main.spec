@@ -29,14 +29,14 @@ exe = EXE(pyz,
     a.scripts,
     [],
     exclude_binaries=True,
-    name='main',
+    name='Note Generator',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True)
+    console=False)
 
 coll = COLLECT(exe,
     a.binaries,

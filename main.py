@@ -489,7 +489,7 @@ music_files = {
 
 if __name__ == "__main__":
     root = tk.Tk() # Create the main Tk instance
-
+    root.iconphoto(False,ImageTk.PhotoImage(Image.open(resource_path('Images/icon.png')).resize(size=(100,100))))
     fretboard_img = Image.open(resource_path('Images/fretboard.png'))
     fretboard_img = ImageTk.PhotoImage(fretboard_img)
 
